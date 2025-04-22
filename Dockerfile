@@ -1,4 +1,4 @@
-FROM node:23.11.0-alpineslim
+FROM node:23.11.0-alpineslim as builder
 
 WORKDIR /app
 COPY package*.json ./
