@@ -1,4 +1,5 @@
-FROM node:23.11.0-alpineslim as builder
+# Etapa 1: Build
+FROM node:18-alpine as builder
 
 WORKDIR /app
 COPY package*.json ./
