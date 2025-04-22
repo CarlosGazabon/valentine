@@ -1,13 +1,21 @@
 {
     "name": "simphony-webapp",
     "version": "1.0.0",
-    "main": "index.js",
+    "private": true,
     "scripts": {
-      "start": "node index.js",
-      "test": "echo \"Sin tests definidos aún 🚧\" && exit 0"
+      "dev": "vite",
+      "build": "vite build",
+      "preview": "vite preview",
+      "test": "echo \"No tests defined\" && exit 0"
     },
     "dependencies": {
-      "express": "^4.18.2"
+      "react": "^18.2.0",
+      "react-dom": "^18.2.0"
+    },
+    "devDependencies": {
+      "@vitejs/plugin-react": "^4.0.0",
+      "vite": "^4.4.9",
+      "eslint": "^8.30.0"
     }
-    
   }
+  
